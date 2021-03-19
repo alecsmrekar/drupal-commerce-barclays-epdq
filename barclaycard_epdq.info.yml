@@ -1,0 +1,8 @@
+name: Barclaycard ePDQ
+description: Provides a Drupal Commerce payment gateway for the Barclaycard ePDQ payment provider.
+type: module
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: Custom
+dependencies:
+  - commerce:commerce_payment

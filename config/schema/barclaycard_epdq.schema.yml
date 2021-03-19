@@ -1,0 +1,39 @@
+commerce_payment.commerce_payment_gateway.plugin.barclaycard_epdq_redirect_checkout:
+  type: commerce_payment_gateway_configuration
+  mapping:
+    redirect_url:
+      type: string
+      label: 'Redirect URL'
+    pspid:
+      type: string
+      label: 'PSPID'
+    sha_in_passphrase:
+      type: string
+      label: 'SHA in passphrase'
+    sha_out_passphrase:
+      type: string
+      label: 'SHA out passphrase'
+    accept_url:
+      type: string
+      label: 'The accept URL'
+    decline_url:
+      type: string
+      label: 'The decline URL'
+    exception_url:
+      type: string
+      label: 'The exception URL'
+    cancel_url:
+      type: string
+      label: 'The cancel URL'
+    back_url:
+      type: string
+      label: 'The back URL'
+    home_url:
+      type: string
+      label: 'The home URL'
+    locale:
+      type: string
+      label: 'The store locale'
+    logo_url:
+      type: string
+      label: 'The logo URL'
